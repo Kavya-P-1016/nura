@@ -3,11 +3,18 @@ export default function App() {
     <div style={{
       minHeight: "100vh",
       display: "flex",
+      flexDirection: "column",
       alignItems: "center",
       justifyContent: "center",
-      fontFamily: "sans-serif"
+      background: "#ffffff"
     }}>
-      <h1>Nura Health is working 🚀</h1>
+      <h1 style={{ fontSize: "2rem", marginBottom: "1rem" }}>
+        Nura Health
+      </h1>
+
+      <p style={{ color: "#555" }}>
+        Your React app is working 🚀
+      </p>
     </div>
   )
 }
